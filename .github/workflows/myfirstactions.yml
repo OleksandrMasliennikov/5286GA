@@ -24,7 +24,7 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '11'
-        run: java --version  
+      - run: java --version  
 
       - name: Download dependencies
         run: mvn dependency:go-offline
